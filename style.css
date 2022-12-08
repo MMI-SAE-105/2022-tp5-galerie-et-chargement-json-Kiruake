@@ -1,0 +1,69 @@
+
+
+.overlay {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex: none;
+    /* Sit on top of the page content */
+    /* Full width (cover the whole page) */
+    /* Full height (cover the whole page) */
+    /* Stay at the top */
+    /* Stay at the left */
+    /* Stay at the right */
+    /* Stay at the bottom */
+    /* Black background with opacity */
+    /* Add a pointer on hover */
+    /* Use a grid for easy centering */
+    /* Center vertically and horizontally */
+}
+
+.overlay::after {
+    /* Add content : "X" */
+    color: #FFFF;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-color: white;
+    border: solid;
+   
+    /* White text color */
+
+    /* Black background color */
+    /* Font family "sans-serif" */
+    /* Centered text */
+    /* Line height ( idem height ) */
+    /* Display as a block */
+    /* Position absolute */
+    /* 1rem from the top */
+    /* 1rem from the right */
+    /* 2rem width */
+    /* 2rem height */
+    /* White border of 2px */
+    /* Rounded border */
+}
+
+.overlay>figure {
+    margin: none;
+    padding: 1rem;
+    border: solid,2px ;
+    border-color: #FFFF;
+    /* No margin */
+    /* 1rem padding */
+    /* White border of 2px */
+}
+
+.overlay>figure>img {
+    width: 100%;
+    /* Max width 100% for responsive image */
+    /* Height auto for keeping the ratio */
+}
