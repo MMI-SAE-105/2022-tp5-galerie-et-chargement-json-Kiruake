@@ -19,9 +19,9 @@
         incidunt maiores id necessitatibus?</p>
     <div class="overlay" x-show="ImageAffiche" @click="ImageAffiche = null">
 
-        <figure><img src="ImageAffiche" alt="image 237... un chiot"></figure>
+        <figure><img :src="ImageAffiche" alt="image 237... un chiot"></figure>
     </div>
-
+    <img :src="'https://picsum.photos/id/237/40/60'" alt="miniature" @click="ImageAffiche='https://picsum.photos/id/237/400/300'">
 </body>
 
 </html>
